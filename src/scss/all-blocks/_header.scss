@@ -1,0 +1,23 @@
+.header {
+    padding: 100px 0 188px 0;
+    &-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 0 71px;
+    }
+
+    &-link {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+}
