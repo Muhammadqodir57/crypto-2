@@ -1,5 +1,6 @@
 .header {
     padding: 100px 0 188px 0;
+
     &-box {
         display: flex;
         justify-content: space-between;
@@ -19,5 +20,46 @@
         line-height: normal;
         text-transform: capitalize;
     }
+    .header-img {
+        display: none;
+            border: none;
+            background-color: transparent;
+    }
+
+}
+@media only screen and (max-width:700px) {
+    .header {
+        padding: 40px 0 50px 0;
+
+        &-list {
+            gap: 0 40px;
+        }
+
     
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .header {
+        padding: 40px 0 50px 0;
+
+        &-list {
+            gap: 0 25px;
+        }
+
+        &-link {
+            font-size: 16px;
+        }
+    }
+}
+@media only screen and (max-width:440px) {
+    .header {
+        padding: 40px 0 40px 0;
+        &-list {
+            display: none;
+        }
+        .header-img {
+            display: inline-block;
+        }
+    }
 }
