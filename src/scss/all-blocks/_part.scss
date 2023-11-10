@@ -1,0 +1,34 @@
+.part {
+    margin-bottom: 262px;
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+
+    &-title {
+        padding-top: 24px;
+        width: 215px;
+        margin: 0 auto;
+        margin-bottom: 39px;
+        text-align: center;
+        color: #FFF;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    &-btn {
+        padding: 13px 78px;
+        color: #FFF;
+        border: none;
+        margin-left: 360px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        background: #000;
+    }
+}
