@@ -238,7 +238,7 @@ button {
 
 .buy {
   display: flex;
-  margin-bottom: 170px;
+  margin-bottom: 370px;
 }
 .buy-title {
   width: 562px;
@@ -326,4 +326,48 @@ button {
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
+}
+
+.monkey {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 234px;
+}
+.monkey-box {
+  margin-top: 105px;
+}
+.monkey-title {
+  width: 465px;
+  color: #FFF;
+  margin-bottom: 58px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.monkey-btn {
+  padding: 16px 63px;
+  color: #56CAB1;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  border-radius: 100px;
+  border: 3px solid rgba(84, 197, 173, 0.95);
+  background: #1F143B;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.monkey-img {
+  position: absolute;
+  right: 0;
+  top: -55%;
+  right: 15%;
+}
+.monkey-img-2 {
+  position: absolute;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */
