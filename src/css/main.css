@@ -489,9 +489,6 @@ button {
   background: #000;
 }
 
-.footer {
-  position: relative;
-}
 .footer-box {
   display: flex;
 }
@@ -500,7 +497,6 @@ button {
 }
 .footer-img {
   position: absolute;
-  top: 1%;
 }
 .footer-list {
   margin-left: 226px;
@@ -546,6 +542,7 @@ button {
 }
 .footer-list-3 {
   margin-left: 120px;
+  position: relative;
 }
 .footer-end-title {
   margin-left: 105px;
@@ -557,6 +554,9 @@ button {
   line-height: normal;
   text-transform: capitalize;
 }
+.footer-item-3 {
+  position: relative;
+}
 .footer-input {
   width: 253px;
   height: 60px;
@@ -567,8 +567,8 @@ button {
 }
 .footer-btn {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 1%;
+  top: 1%;
   padding: 19px 20px;
   border: none;
   border-radius: 50px;

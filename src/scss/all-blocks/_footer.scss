@@ -1,5 +1,4 @@
 .footer {
-    position: relative;
 
     &-box {
         display: flex;
@@ -11,7 +10,6 @@
 
     &-img {
         position: absolute;
-        top: 1%;
     }
 
     &-list {
@@ -66,6 +64,7 @@
 
     &-list-3 {
         margin-left: 120px;
+        position: relative;
     }
 
     &-end-title {
@@ -78,7 +77,10 @@
         line-height: normal;
         text-transform: capitalize;
     }
+&-item-3 {
+    position: relative;
 
+}
     &-input {
         width: 253px;
         height: 60px;
@@ -90,8 +92,8 @@
 
     &-btn {
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: 1%;
+        top: 1%;
         padding: 19px 20px;
         border: none;
         border-radius: 50px;
